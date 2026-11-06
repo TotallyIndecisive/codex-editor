@@ -1,0 +1,869 @@
+{
+  "id": "first",
+  "title": "OpenPlatform IDE \u00b7 First cut",
+  "version": 1,
+  "path": "first",
+  "src": "/media/Openplatform-IDE-explainer.mp4",
+  "w": 1920,
+  "h": 1080,
+  "fps": 30,
+  "duration": 44.2,
+  "brand": {
+    "colors": [
+      {
+        "id": "primary",
+        "name": "Primary",
+        "v": "#101C24"
+      },
+      {
+        "id": "accent",
+        "name": "Accent",
+        "v": "#18D5BD"
+      }
+    ],
+    "fonts": [
+      {
+        "id": "body",
+        "name": "Captions",
+        "v": "Helvetica Neue"
+      }
+    ],
+    "logo": null
+  },
+  "audio": {
+    "music": null,
+    "musicVol": 0.25,
+    "sfxVol": 1
+  },
+  "assets": [
+    {
+      "id": "/media/intro.mp3",
+      "name": "intro.mp3",
+      "type": "audio"
+    },
+    {
+      "id": "/media/final.mp3",
+      "name": "final.mp3",
+      "type": "audio"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "S1",
+      "name": "Meet Openplatform Ide",
+      "t": [
+        0,
+        6.7
+      ],
+      "els": [
+        {
+          "id": "title0",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            0.3,
+            6.6
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "MEET OPENPLATFORM IDE"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle0",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            0.3,
+            6.6
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "A fresh workspace for microcontrollers"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Built For Flow",
+      "t": [
+        6.7,
+        13.8
+      ],
+      "els": [
+        {
+          "id": "title1",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            6.7,
+            13.5
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "BUILT FOR FLOW"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle1",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            6.7,
+            13.5
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Speed and efficiency, by design"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "Home",
+      "t": [
+        13.8,
+        18.9
+      ],
+      "els": [
+        {
+          "id": "title2",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            13.8,
+            18.8
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "HOME"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle2",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            13.8,
+            18.8
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Create a project or pick up where you left off"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Project Files",
+      "t": [
+        18.9,
+        21.45
+      ],
+      "els": [
+        {
+          "id": "title3",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            18.9,
+            21.4
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "PROJECT FILES"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle3",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            18.9,
+            21.4
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Keep the important pieces close"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "name": "Github",
+      "t": [
+        21.45,
+        25.4
+      ],
+      "els": [
+        {
+          "id": "title4",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            21.45,
+            25.3
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "GITHUB"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle4",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            21.45,
+            25.3
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Your account and projects, in one place"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "name": "Libraries",
+      "t": [
+        25.4,
+        27.6
+      ],
+      "els": [
+        {
+          "id": "title5",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            25.4,
+            27.5
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "LIBRARIES"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle5",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            25.4,
+            27.5
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Find the tools your project needs"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "name": "Boards",
+      "t": [
+        27.6,
+        30.8
+      ],
+      "els": [
+        {
+          "id": "title6",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            27.6,
+            30.7
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "BOARDS"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle6",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            27.6,
+            30.7
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Choose a board for your build"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "name": "Terminal + Output",
+      "t": [
+        30.8,
+        34.4
+      ],
+      "els": [
+        {
+          "id": "title7",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            30.8,
+            34.3
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "TERMINAL + OUTPUT"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle7",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            30.8,
+            34.3
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Switch views when you need them"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S9",
+      "name": "Debug",
+      "t": [
+        34.4,
+        36.15
+      ],
+      "els": [
+        {
+          "id": "title8",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            34.4,
+            36.1
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "DEBUG"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle8",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            34.4,
+            36.1
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Track down the details"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "name": "Settings",
+      "t": [
+        36.15,
+        39.9
+      ],
+      "els": [
+        {
+          "id": "title9",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            36.15,
+            39.85
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "SETTINGS"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle9",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            36.15,
+            39.85
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Make the workspace your own"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "name": "Github Settings",
+      "t": [
+        39.9,
+        42.7
+      ],
+      "els": [
+        {
+          "id": "title10",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            39.9,
+            42.6
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "GITHUB SETTINGS"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle10",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            39.9,
+            42.6
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "Manage your account details"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "name": "Openplatform Ide",
+      "t": [
+        42.7,
+        44.2
+      ],
+      "els": [
+        {
+          "id": "title11",
+          "label": "Title",
+          "box": [
+            5.47,
+            83.15,
+            51.56,
+            4.54
+          ],
+          "t": [
+            42.7,
+            44.15
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "OPENPLATFORM IDE"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 38
+            }
+          }
+        },
+        {
+          "id": "subtitle11",
+          "label": "Subtitle",
+          "box": [
+            5.47,
+            88.7,
+            51.56,
+            3.15
+          ],
+          "t": [
+            42.7,
+            44.15
+          ],
+          "src": "render.swift",
+          "props": {
+            "copy": {
+              "type": "text",
+              "label": "Text",
+              "v": "A little space for your next big idea"
+            },
+            "size": {
+              "type": "number",
+              "label": "Font size",
+              "min": 10,
+              "max": 140,
+              "v": 25
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "notes": []
+}
